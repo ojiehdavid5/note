@@ -21,6 +21,8 @@
         "backgroundColor": "#ffffff"
       }
     },
+
+    
     "web": {
       "bundler": "metro",
       "output": "static",
