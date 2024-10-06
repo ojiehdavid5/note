@@ -24,7 +24,17 @@ import { Colors } from '@/constants/Colors';
 
 export function Collapsible({ children, title }: PropsWithChildren & { title: string }) {
   const [isOpen, setIsOpen] = useState(false);
+
+  
   const theme = useColorScheme() ?? 'light';
+
+
+
+
+
+
+
+  
 
   return (
     <ThemedView>
